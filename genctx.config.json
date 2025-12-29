@@ -1,0 +1,20 @@
+{
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules", ".git",
+    ".env", ".env.*",
+    "dist", "build", "out", "target", "vendor", "bin", ".next", ".nuxt",
+    ".venv", "venv"
+  ],
+  "outputFile": "genctx.context.md",
+  "options": {
+    "removeComments": false,
+    "removeEmptyLines": false,
+    "maxFileSizeKB": 2048,
+    "maxTotalTokens": 0,
+    "maxFileTokens": 0,
+    "useGitignore": true
+  }
+}
