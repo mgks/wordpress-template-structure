@@ -4,14 +4,14 @@ A lightweight, modern starter theme for WordPress developers. This skeleton is b
 
 Designed to be bloat-free, it utilizes the WordPress Template Hierarchy to reduce file count while maintaining full functionality.
 
-## 🚀 Features
+## Features
 
 *   **Hybrid Classic Structure**: Traditional PHP templating paired with `theme.json` for modern block editor control.
 *   **Zero Bloat**: Redundant files (like `category.php`, `tag.php`, `attachment.php`) are removed in favor of a robust `archive.php` fallback.
 *   **Modern Organization**: Assets live in `assets/` and partials in `template-parts/`.
 *   **Developer Ready**: Includes standard `.gitignore` exclusions and a `FUNDING.yml`.
 
-## 📂 Directory Structure
+## Directory Structure
 
 ```text
 ├── .github/             # GitHub funding configurations
@@ -34,7 +34,7 @@ Designed to be bloat-free, it utilizes the WordPress Template Hierarchy to reduc
 └── theme.json           # Global settings (Colors, Layout, Typography)
 ```
 
-## 🛠 Installation
+## Installation
 
 1.  **Clone or Download**:
     ```bash
@@ -43,7 +43,7 @@ Designed to be bloat-free, it utilizes the WordPress Template Hierarchy to reduc
 2.  **Activate**:
     Go to your WordPress Dashboard > **Appearance** > **Themes** and activate the theme.
 
-## ⚙️ Configuration
+## Configuration
 
 ### Styles & Scripts
 *   **Global Settings**: Edit `theme.json` to control typography, color palettes, and layout widths. This is the modern replacement for many `add_theme_support` calls.
@@ -55,6 +55,6 @@ We follow the DRY (Don't Repeat Yourself) principle.
 *   `header.php` and `footer.php` load the outer shell.
 *   The Loop content is handled via `get_template_part( 'template-parts/content', ... )`.
 
-## 📜 License
+## License
 
 [MIT](LICENSE) / GPL-2.0-or-later
